@@ -22,10 +22,15 @@ or unknown commands. The utility terminates when the user enters `exit`.
 - Continuous execution until exit command
 - Clean and safe termination
 
----
-
+  
 ## 💻 Technologies Used
 - Language: C++
 - Compiler: g++ (MinGW)
 - Operating System: Windows
 - Terminal: PowerShell
+- ---
+
+Command log.txt
+Executed command: dir
+Executed command: echo Hello
+Executed command: wrongcommand
