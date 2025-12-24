@@ -1,27 +1,31 @@
-# System Utility – Simple Command Runner
+# System Utility – Simple Command Runner (C++)
 
-## 🎯 Objective
-To build a small system utility in C++ that demonstrates process creation and command execution.
-
-## 📌 Description
-A basic shell-like utility that:
-- accepts user commands
-- executes them using system
-- handles invalid commands gracefully
-- exits on typing `exit`
+## 📌 Objective
+To build a small system utility using C++ that demonstrates process creation
+and command execution. The utility executes system commands, handles errors
+gracefully, and exits cleanly.
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Description
+This project implements a simple shell-like command runner in C++.
+The program continuously accepts user input, executes valid system commands
+using the operating system, and displays appropriate error messages for invalid
+or unknown commands. The utility terminates when the user enters `exit`.
+
+---
+
+## ✨ Features
+- Executes system commands entered by the user
+- Interactive command prompt
+- Graceful error handling for invalid commands
+- Continuous execution until exit command
+- Clean and safe termination
+
+---
+
+## 💻 Technologies Used
 - Language: C++
 - Compiler: g++ (MinGW)
-- OS: Windows
-
----
-
-## 📦 Build Instructions
-
-### Compile
-```bash
-g++ src/main.cpp -o main.exe
-
+- Operating System: Windows
+- Terminal: PowerShell
